@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildTest", "BuildTest\BuildTest.csproj", "{1AF29DC0-6A5E-4D0D-B9D0-2EE653291A75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dragonpass.BuildEngine", "CodeGen\Dragonpass.BuildEngine.csproj", "{1AAC49D5-6F90-4B63-A7E3-6B79D1D2EBB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildTest.Test", "BuildTest.Test\BuildTest.Test.csproj", "{A782E9C5-0BAE-47A7-A178-2A44E1108C0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1AF29DC0-6A5E-4D0D-B9D0-2EE653291A75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AF29DC0-6A5E-4D0D-B9D0-2EE653291A75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AF29DC0-6A5E-4D0D-B9D0-2EE653291A75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AF29DC0-6A5E-4D0D-B9D0-2EE653291A75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AAC49D5-6F90-4B63-A7E3-6B79D1D2EBB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AAC49D5-6F90-4B63-A7E3-6B79D1D2EBB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AAC49D5-6F90-4B63-A7E3-6B79D1D2EBB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AAC49D5-6F90-4B63-A7E3-6B79D1D2EBB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A782E9C5-0BAE-47A7-A178-2A44E1108C0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A782E9C5-0BAE-47A7-A178-2A44E1108C0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A782E9C5-0BAE-47A7-A178-2A44E1108C0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A782E9C5-0BAE-47A7-A178-2A44E1108C0D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
